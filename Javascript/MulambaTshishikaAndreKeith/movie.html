@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-center">
+          <h1>CINE KEITHOS</h1>
+        </div>
+        <div class="nav-left">
+          <a href="index.html" class="home-link">Accueil</a>
+        </div>
+        <div class="nav-right">
+          <a href="search.html" class="search-link-button"
+            >Rechercher des Films</a
+          >
+        </div>
+      </nav>
+    </header>
+    <div id="movie-card">
+      <img src="" id="poster" alt="movie image" />
+      <p id="title"></p>
+      <p id="overview"></p>
+      <p id="popularity"></p>
+    </div>
+    <form>
+      <div class="form-element">
+        <label for="">Pseudonyme</label>
+        <input
+          type="text"
+          id="pseudonyme"
+          value=""
+          placeholder="Entrez votre nom ou alias"
+        />
+      </div>
+      <div class="form-element">
+        <label for="comment">Commentaire</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" id="comment-btn">Commenter</button>
+    </form>
+    <div id="comments"></div>
+    <script src="./js/movie.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1732050580 source:c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\src\board.cpp
+	"Board.h"
+	<vector>
+	<iostream>
+	<algorithm>
+
+1732050485 c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\include\board.h
+	<vector>
+	"Tuile.h"
+
+1732044878 c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\include\tuile.h
+	<vector>
+	<utility>
+	<string>
+
+1732050730 source:c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\src\joueur.cpp
+	"Joueur.h"
+	<iostream>
+	<vector>
+	<string>
+	<utility>
+
+1732050721 c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\include\joueur.h
+	<string>
+	<vector>
+	<utility>
+
+1732051351 source:c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\src\tuile.cpp
+	"Tuile.h"
+	<vector>
+	<iostream>
+	<algorithm>
+
+1732041744 source:c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\main.cpp
+	<iostream>
+	"Joueur.h"
+	<string>
+	"Board.h"
+	"Tuile.h"
+	"LayingGlass.h"
+
+1732050513 c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\include\layingglass.h
+	"Board.h"
+	"Joueur.h"
+
+1732050532 source:c:\users\foune\onedrive - supinfo\documents\supinfo\supinfo b2\devoirs\projet_c\layingglass\src\layingglass.cpp
+	"LayingGlass.h"
+	"Board.h"
+	"Joueur.h"
+	<string>
+	<iostream>
+

@@ -1,0 +1,160 @@
+/* index.css */
+
+body {
+  background-color: #16202c;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top:6%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2937;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  margin: 0 10px;
+}
+
+.home-link,
+.search-link-button,
+.login-link-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #61dafb;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-link:hover,
+.search-link-button:hover,
+.login-link-button:hover {
+  background-color: #38a3ff;
+}
+
+h1 {
+  margin: 0;
+}
+
+#trendingMovies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Espacement entre les éléments de la grille */
+  margin: 20px; /* Marge autour de la grille */
+}
+
+#trendingMovies div {
+  border: 1px solid #ddd; /* Bordure autour de chaque élément */
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Ajout de transitions pour l'effet d'agrandissement et l'ombre */
+  background-color: #1f2937;
+  border-radius: 10px;
+}
+
+#trendingMovies img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#trendingMovies img:hover {
+  transform: scale(1.1); /* Agrandissement de 10% au survol */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Ajout d'une ombre au survol avec une couleur blanche transparente */
+}
+
+h3,
+p,
+a {
+  color: #fff;
+}
+
+#trendingMovies a {
+  color: #61dafb; /* Couleur bleue pour les liens */
+  text-decoration: none; /* Suppression du soulignement initial des liens */
+  transition: color 0.3s ease-in-out; /* Ajout d'une transition pour le changement de couleur au survol */
+}
+
+#trendingMovies a:hover {
+  color: #38a3ff; /* Nouvelle couleur au survol */
+  text-decoration: underline; /* Soulignement au survol des liens */
+}
+
+/* movie card styles  */
+#movie-card {
+  max-width: 600px;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.2rem;
+}
+
+#movie-card > img {
+  display: block;
+  width: 60%;
+  height: 80%;
+  border-radius: 6px;
+}
+
+#movie-card {
+  margin-top: 5px;
+}
+
+#overview {
+  float: right;
+}
+
+form {
+  padding: 1.2rem;
+  display: grid;
+  place-items: left;
+  row-gap: 8px;
+}
+
+div.form-element {
+  display: flex;
+  flex-direction: column;
+}
+
+div.form-element > input,
+div.form-element > textarea {
+  border: none;
+  padding: 0.6rem;
+  border-radius: 6px;
+  width: 60%;
+  outline: none;
+  transition: all 200ms ease-in-out;
+}
+
+form > button {
+  width: 25%;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: none;
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+}
